@@ -1,0 +1,40 @@
+body,
+button {
+    font-family: monospace;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+}
+
+button {
+    margin-top: 20px;
+    background-color: white;
+    border-color: #ADD8E6;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 25px;
+    padding: 10px 20px;
+    outline: none;
+    color: #8aacb8;
+}
+
+button:hover {
+    border-color: #8aacb8;
+    color: #8aacb8;
+}
+
+.line {
+    stroke: #000;
+    stroke-width: 5px;
+    stroke-linecap: round;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+}
